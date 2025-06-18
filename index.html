@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>İrem İsmail’i Seviyor mu?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>İrem, İsmail’i seviyor mu?</h1>
+
+  <div class="button-container">
+    <button onclick="yesClicked()">Evet</button>
+    <button id="noBtn" onclick="noClicked()">Hayır</button>
+  </div>
+
+  <div id="result"></div>
+  <img id="popupImage" src="ask.png" alt="Aşk Fotoğrafı" />
+
+  <!-- Arka plan müziği -->
+  <audio autoplay loop>
+    <source src="muzik.mp3" type="audio/mpeg">
+    Tarayıcınız müziği desteklemiyor.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
